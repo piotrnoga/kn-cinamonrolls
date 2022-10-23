@@ -1,0 +1,198 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #ffefdd;
+    text-align: center;
+  }
+
+.photo-bg {
+  display: flex;
+  background-image: url(https://images.pexels.com/photos/8176598/pexels-photo-8176598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  width: 100%;
+  height: 250px;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-family: Snell Roundhand, cursive;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.break {
+  display: flex;
+  background-image: url(https://images.pexels.com/photos/5429914/pexels-photo-5429914.jpeg);
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ingredients {
+  width: 400px;
+  justify-content: center;
+  margin: 0px auto auto auto;
+}
+
+.ingredients h2 {
+  color: #ffffff;
+  background-color: #8b6734;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.ingredients h3 {
+  background-color: #ffc927;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  box-shadow: 0 5px 25px #afadab;
+}
+
+.ingredients ul li {
+  list-style: none;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0 5px 25px #afadab;
+  transition: transform 0.5s;
+}
+
+.ingredients ul li:hover {
+  transform: scale(1.1);
+  background-color: #ffc927;
+  font-weight: 600;
+}
+
+.time {
+  display: flex;
+  width: 350px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.time h4 {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/*Tooltip*/
+
+.time h6 {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+  margin-right: 20px;
+  position: relative;
+  display: inline-block;
+  transition: transform 1s;
+}
+
+.time h6 .tooltiptext {
+  visibility: hidden;
+  background-color: #8b6734;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: -15px;
+  right: 115%;
+}
+
+.time h6:hover .tooltiptext {
+  visibility: visible;
+}
+
+.time h6:hover {
+  transform: scale(130%);
+}
+
+.effect {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.effect h4 {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.box {
+  width: 750px;
+  justify-content: center;
+  margin: auto;
+}
+
+.instruction h2 {
+  color: #ffffff;
+  background-color: #8b6734;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-bottom: 0px;
+}
+
+.instruction ul span {
+  text-align: center;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #8b6734;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 10px;
+  line-height: normal;
+}
+
+.instruction ul li {
+  list-style: none;
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0 5px 25px #afadab;
+  font-size: 13px;
+  line-height: 30px;
+  transition: transform 0.5s;
+}
+
+.instruction ul li:hover {
+  transform: scale(1.1);
+  background-color: #ffc927;
+  font-weight: 600;
+}
+
+.grid-half {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-30 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.cinnamon-rolls {
+  margin: auto;
+}
+
+footer {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
